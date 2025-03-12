@@ -105,7 +105,7 @@ locations.forEach(location => {
     });
 
     marker.on("mouseout", () => {
-        map.getContainer().classList.remove("map-fade"); /
+        map.getContainer().classList.remove("map-fade"); 
         infoBox.style.display = "none";
     });
 });
